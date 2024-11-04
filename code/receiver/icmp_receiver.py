@@ -10,8 +10,8 @@ def handle_packet(packet):
 def receive_icmp():
     print("Listening for ICMP packets...")
     # Capture ICMP packets
-    sniff(filter="icmp", prn=handle_packet)
-
+    sniff(filter="icmp", prn=handle_packet,count=1)
+    return
 if __name__ == "__main__":
     receive_icmp()
 # Implement your ICMP receiver here

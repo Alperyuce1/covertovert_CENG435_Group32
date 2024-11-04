@@ -6,7 +6,8 @@
 Basic ICMP Documentation
 ========================
 
-Please add your names and group ID here by editing `index.rst` in the docs folder.
+Alper Yücel 2581239 
+Rayan Osama Ali Kriewah 2528370
 
 
 .. toctree::
